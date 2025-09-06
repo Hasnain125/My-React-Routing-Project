@@ -12,7 +12,7 @@ export default function Navbar() {
 
        
         <ul className="hidden md:flex space-x-6">
-          <li><Link to="/login" className="hover:text-gray-200">Login</Link></li>
+          <li><Link to="/" className="hover:text-gray-200">Login</Link></li>
           <li><Link to="/register" className="hover:text-gray-200">Register</Link></li>
           <li><Link to="/protects" className="hover:text-gray-200">Protects</Link></li>
         </ul>
@@ -29,7 +29,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <ul className="md:hidden mt-3 space-y-2">
-        <li><Link to="/login" className="hover:text-gray-200">Login</Link></li>
+        <li><Link to="/" className="hover:text-gray-200">Login</Link></li>
           <li><Link to="/register" className="hover:text-gray-200">Register</Link></li>
           <li><Link to="/protects" className="hover:text-gray-200">Protects</Link></li>
         </ul>
